@@ -12,8 +12,8 @@ This project is a simple travel website built using HTML, CSS, and JavaScript. I
 
 ## Live Preview
 
-Check out the live preview of the site [here]([http://example.com](https://travel-testtt.vercel.app/)).
-
+Check out the live preview of the site [here]([(https://travel-testtt.vercel.app/)]).
+https://travel-testtt.vercel.app/
 ## Installation
 
 1. Clone the repository:
