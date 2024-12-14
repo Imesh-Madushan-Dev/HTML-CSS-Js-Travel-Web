@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Your Trip</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+    <button id="back-button" onclick="history.back()">Back</button>
+        <h1>Schedule Your Trip</h1>
+        <form id="trip-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="contact">Contact Number (including Country Code)</label>
+                    <input type="tel" id="contact" name="contact" required>
+                </div>
+                <div class="form-group">
+                    <label for="nationality">Select Nationality</label>
+                    <select id="nationality" name="nationality" required>
+                        <option value="" disabled selected>Select Nationality</option>
+                        <option value="us">United States</option>
+                        <option value="ca">Canada</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="in">India</option>
+                        <option value="lk">Sri Lanka</option>
+                        <option value="au">Australia</option>
+                        <option value="nz">New Zealand</option>
+                        <option value="za">South Africa</option>
+                        <option value="de">Germany</option>
+                        <option value="fr">France</option>
+                        <option value="jp">Japan</option>
+                        <option value="cn">China</option>
+                        <option value="br">Brazil</option>
+                        <option value="mx">Mexico</option>
+                        <option value="it">Italy</option>
+                        <option value="es">Spain</option>
+                        <option value="ru">Russia</option>
+                        <option value="kr">South Korea</option>
+                        <option value="ar">Argentina</option>
+                        <option value="cl">Chile</option>
+                        <option value="eg">Egypt</option>
+                        <option value="ng">Nigeria</option>
+                        <option value="sa">Saudi Arabia</option>
+                        <option value="se">Sweden</option>
+                        <option value="no">Norway</option>
+                        <option value="fi">Finland</option>
+                        <option value="dk">Denmark</option>
+                        <option value="nl">Netherlands</option>
+                        <option value="be">Belgium</option>
+                        <option value="ch">Switzerland</option>
+                        <option value="at">Austria</option>
+                        <option value="pl">Poland</option>
+                        <option value="gr">Greece</option>
+                        <option value="pt">Portugal</option>
+                        <option value="tr">Turkey</option>
+                        <option value="il">Israel</option>
+                        <option value="sg">Singapore</option>
+                        <option value="my">Malaysia</option>
+                        <option value="th">Thailand</option>
+                        <option value="vn">Vietnam</option>
+                        <option value="ph">Philippines</option>
+                        <option value="id">Indonesia</option>
+                        <option value="pk">Pakistan</option>
+                        <option value="bd">Bangladesh</option>
+                        <option value="ir">Iran</option>
+                        <option value="iq">Iraq</option>
+                        <option value="ae">United Arab Emirates</option>
+                        <option value="qa">Qatar</option>
+                        <option value="kw">Kuwait</option>
+                        <option value="om">Oman</option>
+                        <option value="bh">Bahrain</option>
+                        <option value="jo">Jordan</option>
+                        <option value="lb">Lebanon</option>
+                        <option value="sy">Syria</option>
+                        <option value="af">Afghanistan</option>
+                        <option value="np">Nepal</option>
+                        <option value="mm">Myanmar</option>
+                        <option value="kh">Cambodia</option>
+                        <option value="la">Laos</option>
+                        <option value="mn">Mongolia</option>
+                        <option value="kz">Kazakhstan</option>
+                        <option value="uz">Uzbekistan</option>
+                        <option value="tm">Turkmenistan</option>
+                        <option value="kg">Kyrgyzstan</option>
+                        <option value="tj">Tajikistan</option>
+                        <option value="az">Azerbaijan</option>
+                        <option value="ge">Georgia</option>
+                        <option value="am">Armenia</option>
+                        <option value="md">Moldova</option>
+                        <option value="ua">Ukraine</option>
+                        <option value="by">Belarus</option>
+                        <option value="lt">Lithuania</option>
+                        <option value="lv">Latvia</option>
+                        <option value="ee">Estonia</option>
+                        <option value="is">Iceland</option>
+                        <option value="ie">Ireland</option>
+                        <option value="mt">Malta</option>
+                        <option value="cy">Cyprus</option>
+                        <option value="lu">Luxembourg</option>
+                        <option value="mc">Monaco</option>
+                        <option value="ad">Andorra</option>
+                        <option value="sm">San Marino</option>
+                        <option value="va">Vatican City</option>
+                        <option value="li">Liechtenstein</option>
+                        <option value="si">Slovenia</option>
+                        <option value="hr">Croatia</option>
+                        <option value="ba">Bosnia and Herzegovina</option>
+                        <option value="me">Montenegro</option>
+                        <option value="rs">Serbia</option>
+                        <option value="mk">North Macedonia</option>
+                        <option value="al">Albania</option>
+                        <option value="bg">Bulgaria</option>
+                        <option value="ro">Romania</option>
+                        <option value="hu">Hungary</option>
+                        <option value="sk">Slovakia</option>
+                        <option value="cz">Czech Republic</option>
+                        <option value="si">Slovenia</option>
+                        <option value="hr">Croatia</option>
+                        <option value="ba">Bosnia and Herzegovina</option>
+                        <option value="me">Montenegro</option>
+                        <option value="rs">Serbia</option>
+                        <option value="mk">North Macedonia</option>
+                        <option value="al">Albania</option>
+                        <option value="bg">Bulgaria</option>
+                        <option value="ro">Romania</option>
+                        <option value="hu">Hungary</option>
+                        <option value="sk">Slovakia</option>
+                        <option value="cz">Czech Republic</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="arrival-date">Arrival Date</label>
+                    <input type="date" id="arrival_date" name="arrival_date" required>
+                </div>
+                <div class="form-group">
+                    <label for="expected-days">Expected number of days</label>
+                    <input type="number" id="expected-days" name="expected_days" min="1" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="adults">Number of Adults</label>
+                    <input type="number" id="adults" name="adults" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="children">Number of Children</label>
+                    <input type="number" id="children" name="children" min="0">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="trip-type">Select type of trip</label>
+                    <select id="trip-type" name="trip_type" required>
+                        <option value="" disabled selected>Select Trip Type</option>
+                        <option value="beach">Beach</option>
+                        <option value="mountain">Mountain</option>
+                        <option value="city">City</option>
+                        <option value="forest">Forest</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="referral">How did you hear about us?</label>
+                    <select id="referral" name="referral" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="internet">Internet Search</option>
+                        <option value="friend">Friend/Family</option>
+                        <option value="social_media">Social Media</option>
+                        <option value="advertisement">Advertisement</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group full-width">
+                    <input type="checkbox" id="privacy-policy" name="privacy_policy" required>
+                    <label for="privacy-policy">I've read and accepted the <a href="#" target="_blank"
+                            onclick="alert('This is a dummy privacy policy.'); return false;">Privacy Policy</a></label>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+    <script>
+        document.getElementById('trip-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            let mailtoBody = "";
+            for (let [key, value] of formData.entries()) {
+                mailtoBody += `${key}: ${value}\n`;
+            }
+            const mailtoUrl = `mailto:imeshmadushan1333@gmail.com?subject=New Trip Scheduled&body=${encodeURIComponent(mailtoBody)}`;
+            window.location.href = mailtoUrl;
+        });
+    </script>
+</body>
+
+</html>
